@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -20,18 +21,20 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<span class="logo"><span class="icon solid major style3 fa-laptop-code"></span></span>
 						<h1>Joe Xiao</h1>
-						<p>Software Engineer</p>
+						<p>Software Engineer based in NYC</p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">About me</a></li>
-							<li><a href="#first">First section</a></li>
+							<li><a href="#first">Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
 							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#resume">Resume</a></li>
 						</ul>
 					</nav>
 
@@ -45,12 +48,14 @@
 										<header class="major">
 											<h2>About me</h2>
 										</header>
-										<p>Hi, I am Joe.</p>
+										<p>Hi, I am Joe, a software engineer with experience in Ruby on Rails, JavaScript, React, Redux, and more!
+											
+										</p>
 										<ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/joe_xiao_hs.jpg" alt="joe_xiao_headshot_photo" /></span>
+									<span class="image"><img src="images/joe_xiao_318px.jpg" alt="joe_xiao_headshot_photo" /></span>
 								</div>
 							</section>
 
@@ -62,28 +67,115 @@
 								<ul class="features">
 									<li>
 										<!-- <a href="https://ani-flix.herokuapp.com/"><span class="icon solid major style1 fa-code "></span></a> -->
-										<span class="icon solid major style1 fa-code "></span>
+										<span class="icon solid major style1 fa-video "></span>
 										<a target="_blank" href="https://ani-flix.herokuapp.com/"><h3>Aniflix</h3></a>
-										<p>Anime based Netflix clone.</p>
+										<p>Anime based Netflix clone. Watch anywhere, anytime!</p>
+										<div class="live-github">
+											<a target="_blank" href="https://ani-flix.herokuapp.com/">Live Link</a>
+											<a target="_blank" href="https://github.com/joexiao97/Aniflix">GitHub</a>
+										</div>
 									</li>
 									<li>
-										<span class="icon major style3 devicon-html5-plain"></span>
+										<span class="icon solid major style3 fa-users"></span>
 										<a target="_blank" href="https://fishy-app.herokuapp.com/"><h3>FishyDex</h3></a>
 										<p>Crowd sourced social media platform about fish for fishers.</p>
+										<div class="live-github">
+											<a target="_blank" href="https://fishy-app.herokuapp.com/">Live Link</a>
+											<a target="_blank" href="https://github.com/michaelyuen89/fishyapp">GitHub</a>
+										</div>
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
+										<span class="icon major solid style5 fa-gamepad"></span>
 										<a target="_blank" href="https://joexiao97.github.io/tower_defense/"><h3>TowerDefenseJS</h3></a>
 										<p>Tower defense game built using vanilla JavaScript and Canvas.</p>
+										<div class="live-github">
+											<a target="_blank" href="https://joexiao97.github.io/tower_defense">Live Link</a>
+											<a target="_blank" href="https://github.com/joexiao97/tower_defense">GitHub</a>
+										</div>
 									</li>
 									<li>
 
 								</ul>
-								<footer class="major">
+								<!-- <footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
+							</section>
+
+							<!-- Skills -->
+							<section id="skills" class="main special">
+								<header class="major">
+									<h2>Skills</h2>
+								</header>
+								<div class="skills-icons">
+									<div id="col">
+										<div>
+											<i class="devicon-ruby-plain colored"></i>
+											<p>Ruby</p>
+										</div>
+										<div>
+											<i class="devicon-rails-plain colored"></i>
+											<p>Rails</p>
+										</div>
+										<div>
+											<i class="devicon-javascript-plain colored"></i>
+											<p>JavaScript</p>
+										</div>
+										<div>
+											<i class="devicon-react-original colored"></i>
+											<p>React</p>
+										</div>
+										<div>
+											<i class="iconify" data-icon="logos-redux" data-inline="false"></i>
+											<p>Redux</p>
+										</div>
+										<div>
+											<i class="devicon-nodejs-plain colored"></i>
+											<p>Node.js</p>
+										</div>
+									</div>
+									<div id="col">
+										<div>
+											<i class="devicon-html5-plain colored"></i>
+											<p>HTML5</p>
+										</div>
+										<div>
+											<i class="devicon-css3-plain colored"></i>
+											<p>CSS</p>
+										</div>
+										<div>
+											<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+											<p>AWS</p>
+										</div>
+										<div>
+											<i class="devicon-git-plain colored"></i>
+											<p>Git</p>
+										</div>
+										<div>
+											<i class="devicon-jquery-plain colored"></i>
+											<p>jQuery</p>
+										</div>
+										<div>
+											<i class="devicon-mongodb-plain colored"></i>
+											<p>mongoDB</p>
+										</div>
+									</div>
+									<div id="col">
+										<div>
+											<i class="devicon-express-original colored"></i>
+											<p>Express.js</p>
+										</div>
+										<div>
+											<i class="devicon-postgresql-plain colored"></i>
+											<p>PostGreSQL</p>
+										</div>
+										<div>
+											<i class="devicon-webpack-plain colored"></i>
+											<p>Webpack</p>
+										</div>
+									</div>
+								</div>
 							</section>
 
 						<!-- Second Section -->
@@ -124,16 +216,16 @@
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+							<section id="resume" class="main special">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Resume?</h2>
+									<!-- <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p> -->
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="generic.html" class="button primary">Get my resume here!</a></li>
+										<!-- <li><a href="generic.html" class="button">Learn More</a></li> -->
 									</ul>
 								</footer>
 							</section>
@@ -163,7 +255,8 @@
 								<!-- <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li> -->
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://github.com/joexiao97" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/joe-xiao-8a5669109/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
 								<!-- <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
 							</ul>
 						</section>
