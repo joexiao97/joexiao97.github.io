@@ -99,11 +99,16 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		/* background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		background-color: #007aec;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #007aec 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #007aec 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #007aec 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #007aec 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -123,11 +128,11 @@ input, select, textarea {
 }
 
 .skills-icons > #col > div > i{
-	font-size: 50px;
+	font-size: 68px;
 }
 
 .iconify{
-	font-size: 50px;
+	font-size: 68px;
 }
 
 .skills-icons > #col{
@@ -137,6 +142,10 @@ input, select, textarea {
 
 .skills-icons > #col > div{
 	width: 68px;
+}
+
+.fa-laptop-code{
+	font-size: 88px;
 }
 /* Type */
 
@@ -3107,7 +3116,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 1em 1em 1em 1em ;
 		}
 
 			#header.alt h1 {
@@ -3152,7 +3161,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3164,7 +3173,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3185,7 +3194,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 					#header.alt h1 {
@@ -3201,7 +3210,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3213,7 +3222,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3741,7 +3750,7 @@ input, select, textarea {
 			#footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
-				margin: 0 0 3em 0;
+				margin: 0 0 0em 0;
 				width: 100%;
 			}
 
